@@ -1,0 +1,24 @@
+Objective: Develop a Python simulator for cache mapping, designing a processor with a two-level cache system along with main memory.
+DETAILS:
+
+1. L1 cache
+
+ (8kB) - direct map cache supported by victim cache.
+
+ 128 lines in L1 cache- size of each lie is 64 bytes (byte addressable memory)
+
+ Victim cache supports L1 cache: 4 lines (fully associative cache)
+
+2. L2 cache
+
+ (16 kB) – 4-way set associative cache.
+
+ 256 lines in L2 cache.
+
+3. Size of main memory is 64 kB.
+
+Question:
+
+Write a piece of code that rationally mimics the behaviour of a processer in issuing addresses to the memory.
+
+(Objective of simulator– show how replacement in L1 and L2 memory works and show how element is transferred to L1 victim cache using required animation.)
